@@ -18,8 +18,8 @@ A Django REST API providing user registration/login (with JWT), chat history, an
 
 - Python 3.9+
 - PostgreSQL
-- Docker (optional, for containerized deployment)
-- OpenAI API key (or use mock mode for dev/testing)
+- Docker (for containerized deployment)
+- OpenAI API key 
 
 ---
 
@@ -28,8 +28,8 @@ A Django REST API providing user registration/login (with JWT), chat history, an
 ### 1. Clone the Repository
 
 ```bash
-git clone <YOUR_REPO_URL>
-cd <repo_folder>
+git clone https://github.com/infantista/aichatbot_asst.git
+cd aichatbot_asst\ai_chatbot
 ```
 
 ### 2. Create `.env` File
